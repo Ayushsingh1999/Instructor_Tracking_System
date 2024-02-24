@@ -39,6 +39,9 @@ The server will start running on http://localhost:3000 by default.
 ##API Endpoints
 
 ##POST /checkin: Record the check-in time of an instructor.
+
+live URL :-https://instructor-tacking-management.onrender.com/checkin
+
 #Request Body:
 {
     "instructorId": "uniqueInstructorId",
@@ -47,6 +50,9 @@ The server will start running on http://localhost:3000 by default.
 
 
 ##POST /checkout: Record the check-out time of an instructor.
+
+live URL :-https://instructor-tacking-management.onrender.com/checkout
+
 #Request Body:
 
 {
@@ -56,6 +62,9 @@ The server will start running on http://localhost:3000 by default.
 
 
 ##GET /monthly-report/:month/:year:
+
+live URL :-https://instructor-tacking-management.onrender.com/monthly-report/:month/:year:
+
 #Generate an aggregated monthly report of total checked-in time for all instructors in the specified month and year.
 Example: /monthly-report/2/2024 will generate the report for February 2024.
 
